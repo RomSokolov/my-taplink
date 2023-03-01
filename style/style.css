@@ -51,6 +51,7 @@ body {
 
 .title {
   color: aliceblue;
+  text-shadow: 1.5px 0 0 red;
 }
 
 .avatar {

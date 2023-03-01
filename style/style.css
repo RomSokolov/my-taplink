@@ -32,6 +32,7 @@ ul {
 img {
   max-width: 100%;
   height: auto;
+  pointer-events: none;
 }
 
 body {
@@ -53,9 +54,11 @@ body {
 }
 
 .avatar {
-  max-width: 200px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   border: 2px solid gray;
+  opacity: 0.8;
 }
 
 .links {
@@ -70,20 +73,49 @@ body {
 }
 
 .profile__item {
-display: flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   margin: 0 auto;
   margin-bottom: 15px;
   max-width: 480px;
-  height: 40px;
+  height: 50px;
   background-color: rgba(83, 83, 83, 0.7);
   border-radius: 99em;
 }
 
+.profile__item:nth-child(1):hover {
+  cursor: pointer;
+  background-color: rgba(68, 128, 240, 0.801);
+  transform: scale(1.1);
+  transition: 1s;
+}
+
+.profile__item:nth-child(2):hover {
+  cursor: pointer;
+  background: linear-gradient(10deg, #fb63f9, #c2e534);
+  transform: scale(1.1);
+  transition: 1s;
+}
+
+.profile__item:nth-child(3):hover {
+  cursor: pointer;
+  background-color: rgba(0, 89, 255, 0.801);
+  transform: scale(1.1);
+  transition: 1s;
+}
+.profile__item:nth-child(4):hover {
+  cursor: pointer;
+  background: linear-gradient(10deg, #003bfc, #eef3f5);
+  transform: scale(1.1);
+  transition: 1s;
+}
+
+.list__img {
+  width: 40px;
+}
+
 .profile__item a {
-  
   text-decoration: 0;
   color: aliceblue;
-  
 }

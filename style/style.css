@@ -41,14 +41,49 @@ body {
   background-attachment: fixed;
 }
 
-.hero {
+.header {
   max-width: 940px;
   margin: 0 auto;
+  margin-top: 20px;
   text-align: center;
+}
+
+.title {
+  color: aliceblue;
 }
 
 .avatar {
   max-width: 200px;
   border-radius: 50%;
   border: 2px solid gray;
+}
+
+.links {
+  max-width: 940px;
+  margin: 0 auto;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.profile__list {
+  list-style-type: none;
+}
+
+.profile__item {
+display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  max-width: 480px;
+  height: 40px;
+  background-color: rgba(83, 83, 83, 0.7);
+  border-radius: 99em;
+}
+
+.profile__item a {
+  
+  text-decoration: 0;
+  color: aliceblue;
+  
 }

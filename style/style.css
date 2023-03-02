@@ -73,7 +73,7 @@ body {
   list-style-type: none;
 }
 
-.profile__item {
+.profile__item a {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -85,27 +85,27 @@ body {
   border-radius: 99em;
 }
 
-.profile__item:nth-child(1):hover {
+.telegram__link:hover {
   cursor: pointer;
   background-color: rgba(68, 128, 240, 0.801);
   transform: scale(1.1);
   transition: 1s;
 }
 
-.profile__item:nth-child(2):hover {
+.instagram__link:hover {
   cursor: pointer;
   background: linear-gradient(10deg, #fb63f9, #c2e534);
   transform: scale(1.1);
   transition: 1s;
 }
 
-.profile__item:nth-child(3):hover {
+.vk__link:hover {
   cursor: pointer;
   background-color: rgba(0, 89, 255, 0.801);
   transform: scale(1.1);
   transition: 1s;
 }
-.profile__item:nth-child(4):hover {
+.facebook__link:hover {
   cursor: pointer;
   background: linear-gradient(10deg, #003bfc, #eef3f5);
   transform: scale(1.1);
